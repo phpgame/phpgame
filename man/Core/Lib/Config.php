@@ -99,7 +99,7 @@ class Config
     public static function getAllWorkers()
     {
          $copy = self::$config;
-         unset($copy['workerman']);
+         unset($copy['phpgame']);
          return $copy;
     }
     
